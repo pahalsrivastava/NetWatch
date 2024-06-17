@@ -1,4 +1,4 @@
-from sklearn.ensemble import IsolationForest
+from sklearn.ensemble import IsolationForest #uses IsolationForest for cybersecurity help
 from sklearn.metrics import classification_report, roc_auc_score
 import joblib
 from data_processing.preprocess import load_and_preprocess_data
